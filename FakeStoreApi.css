@@ -270,7 +270,7 @@ ul {
 /* CARD */
 ul li {
     width: 86%;             /* 90% → ~86% */
-    height: 400px;          /* 700px → ~470px */
+    height: 140%;       /* 700px → ~470px */
     border-radius: 13px;    /* 20px → ~13px */
     background-color: #eee;
     display: flex;
