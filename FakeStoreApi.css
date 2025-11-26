@@ -492,7 +492,7 @@ svg { display: block; width: 18px; height: 18px; color: #ff5a5f; } /* 26 → ~18
     ul { gap: 0.6rem; }
 
     ul li {
-        height: auto;
+        height: 140%;
         width: 94%;
         margin-bottom: 1rem;
     }
