@@ -73,7 +73,7 @@ header h1:hover::after {
     color: #0482f7;
     font-size: clamp(3rem, 6.7vw, 4rem); /* 4.5rem..6rem → ~3rem..4rem */
     position: relative;
-    top: 0.05em;               /* 0.07em → ~0.05em */
+    top: 0.0rem;               /* 0.07em → ~0.05em */
 }
 
 .commerceSpanTitle {
