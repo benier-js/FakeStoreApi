@@ -81,7 +81,7 @@ header h1:hover::after {
     color: #FFF;
     font-family: "Brush Script MT", "Brush Script Std", cursive;
     font-weight: 100;
-    margin-top: 0.7rem;        /* 0.3rem → ~0.2rem */
+    margin-top: 1rem;        /* 0.3rem → ~0.2rem */
 }
 
 .research-form input{
