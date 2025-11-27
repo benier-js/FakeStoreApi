@@ -40,6 +40,7 @@ header h1 {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    gap: 0.1rem
 }
 
 /* Barre sous le titre */
@@ -73,8 +74,7 @@ header h1:hover::after {
     color: #0482f7;
     font-size: clamp(3rem, 6.7vw, 4rem); /* 4.5rem..6rem → ~3rem..4rem */
     position: relative;
-    top: -0.5rem;
-    margin-top: 1rem
+    top: 0.05em;               /* 0.07em → ~0.05em */
 }
 
 .commerceSpanTitle {
@@ -82,8 +82,7 @@ header h1:hover::after {
     color: #FFF;
     font-family: "Brush Script MT", "Brush Script Std", cursive;
     font-weight: 100;
-    margin-top: 1rem;
-    margin-bottom: 0rem;
+    margin-top: 0.7rem;        /* 0.3rem → ~0.2rem */
 }
 
 .research-form input{
