@@ -14,7 +14,7 @@ async function getProducts(input = "") {
         // 🎯 Si pas de recherche → on utilise tous les produits
         // 🎯 Si recherche → on utilise ceux filtrés
         const productsToDisplay = input.trim() === "" ? data : data.filter(article =>
-                article.title.toLowerCase().includes(input.toLowerCase())
+                limitToTreeWord(article.title.toLowerCase(), 3).includes(input.toLowerCase())
             );
 
         ul.innerHTML = ""; // on vide la liste pour ré-afficher proprement
